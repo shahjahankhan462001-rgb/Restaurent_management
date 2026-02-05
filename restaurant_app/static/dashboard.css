@@ -1,0 +1,91 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #85bc20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: rgb(145, 34, 34);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: #cdd317;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #e118e1;
+}
+
+/* Dashboard Section */
+.dashboard {
+  background-color: #a6c72e;
+  min-height: 100vh;
+  color: rgb(17, 13, 13);
+  padding: 40px;
+}
+
+.dashboard h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+/* Cards Grid */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+}
+
+/* Individual Card */
+.card {
+  background-color: #0b121c;
+  border-radius: 12px;
+  padding: 50px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(7, 5, 7, 0.3);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: #0c0d0f;
+}
+
+.card h3 {
+  color: #111418;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #0c0f11;
+}

@@ -1,0 +1,82 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-body {
+    background: url("login.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.login-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.6); 
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3); 
+    width: 380px;
+    text-align: left;
+    backdrop-filter: blur(8px); 
+    
+}
+
+
+.login-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+
+h4 {
+    margin-top: 15px;
+    color: #444;
+}
+
+h4 a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h4 a:hover {
+    text-decoration: underline;
+}

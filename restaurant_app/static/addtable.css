@@ -1,0 +1,17 @@
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.table-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
